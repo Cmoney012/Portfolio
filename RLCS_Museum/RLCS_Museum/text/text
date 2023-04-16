@@ -1,0 +1,196 @@
+
+[{
+'player': {
+	'_id': '5f3d8fdd95f40596eae240d3'
+	'slug': '40d3-noly'
+	'tag': 'noly'
+	'country': 'en'}
+
+
+'stats': {
+	'core': {
+		'shots': 1
+		'goals': 1
+		'saves': 1
+		'assists': 0
+		'score': 290
+		'shootingPercentage': 100}
+
+
+'boost': {
+	'bpm': 448
+	'bcpm': 460.54202
+	'avgAmount': 53.23
+	'amountCollected': 2382
+	'amountStolen': 354
+	'amountCollectedBig': 1699
+	'amountStolenBig': 200
+	'amountCollectedSmall': 683
+	'amountStolenSmall': 154
+	'countCollectedBig': 21
+	'countStolenBig': 2
+	'countCollectedSmall': 53
+	'countStolenSmall': 13
+	'amountOverfill': 348
+	'amountOverfillStolen': 3
+	'amountUsedWhileSupersonic': 403
+	'timeZeroBoost': 51.55
+	'percentZeroBoost': 16.61135
+	'timeFullBoost': 53.06
+	'percentFullBoost': 17.097929
+	'timeBoost0To25': 87.99
+	'timeBoost25To50': 49.28
+	'timeBoost50To75': 64.26
+	'timeBoost75To100': 111.75
+	'percentBoost0To25': 28.086697
+	'percentBoost25To50': 15.730337
+	'percentBoost50To75': 20.512003
+	'percentBoost75To100': 35.670967}
+
+
+'movement': {
+	'avgSpeed': 1553,
+	'totalDistance': 479701
+	'timeSupersonicSpeed': 58.57
+	'timeBoostSpeed': 120.58
+	'timeSlowSpeed': 136.98
+	'timeGround': 181.34
+	'timeLowAir': 122.52
+	'timeHighAir': 12.27
+	'timePowerslide': 7.04
+	'countPowerslide': 79
+	'avgPowerslideDuration': 0.09
+	'avgSpeedPercentage': 67.521736
+	'percentSlowSpeed': 43.330276
+	'percentBoostSpeed': 38.142536
+	'percentSupersonicSpeed': 18.527187
+	'percentGround': 57.362484	
+	'percentLowAir': 38.75621
+	'percentHighAir': 3.881315},
+
+
+'positioning': {
+	'avgDistanceToBall': 3203
+	'avgDistanceToBallPossession': 3153
+	'avgDistanceToBallNoPossession': 3225
+	'avgDistanceToMates': 3655
+	'timeDefensiveThird': 155.64
+	'timeNeutralThird': 110.6
+	'timeOffensiveThird': 49.89
+	'timeDefensiveHalf': 212.69
+	'timeOffensiveHalf': 103.44
+	'timeBehindBall': 238.75
+	'timeInfrontBall': 77.38
+	'timeMostBack': 117
+	'timeMostForward': 95.3
+	'goalsAgainstWhileLastDefender': 0
+	'timeClosestToBall': 74.8
+	'timeFarthestFromBall': 140.8
+	'percentDefensiveThird': 49.23291
+	'percentOffensiveThird': 15.781482
+	'percentNeutralThird': 34.985607
+	'percentDefensiveHalf': 67.27928
+	'percentOffensiveHalf': 32.720715
+	'percentBehindBall': 75.52273
+	'percentInfrontBall': 24.47727
+	'percentMostBack': 37.7018
+	'percentMostForward': 30.709246
+	'percentClosestToBall': 24.103376
+	'percentFarthestFromBall': 45.37106}
+
+
+'demo': {
+	'inflicted': 5
+	'taken': 0}}
+
+
+'advanced': {
+	'goalParticipation': 100
+	'rating': 1.2957006934051611
+	'mvp': True}}]
+
+
+
+played
+wins
+score
+goals
+assists
+saves
+shots
+shootingPercentage
+goalParticipation
+rating
+bpm
+bcpm
+amountCollected
+amountCollectedBig
+amountCollectedSmall
+amountStolen
+amountStolenBig
+amountStolenSmall
+avgSpeed
+avgSpeedPercentage
+totalDistance
+countPowerslide
+timePowerslide
+avgPowerslideDuration
+avgDistanceToBall
+avgDistanceToBallPossession
+avgDistanceToBallNoPossession
+avgDistanceToMates
+timeSupersonicSpeed
+timeBoostSpeed
+timeSlowSpeed
+percentSupersonicSpeed
+percentBoostSpeed
+percentSlowSpeed
+timeGround
+timeLowAir
+timeHighAir
+percentGround
+percentLowAir
+percentHighAir
+countCollectedBig
+countCollectedSmall
+countStolenBig
+countStolenSmall
+amountOverfill
+amountOverfillStolen
+amountUsedWhileSupersonic
+timeZeroBoost
+timeBoost0To25
+timeBoost25To50
+timeBoost50To75
+timeBoost75To100
+timeFullBoost
+percentZeroBoost
+percentBoost0To25
+percentBoost25To50
+percentBoost50To75
+percentBoost75To100
+percentFullBoost
+timeDefensiveThird
+timeNeutralThird
+timeOffensiveThird
+timeDefensiveHalf
+timeOffensiveHalf
+timeMostBack
+timeMostForward
+percentDefensiveThird
+percentNeutralThird
+percentOffensiveThird
+percentDefensiveHalf
+percentOffensiveHalf
+percentMostBack
+percentMostForward
+timeBehindBall
+timeInfrontBall
+timeClosestToBall
+timeFarthestFromBall
+percentBehindBall
+percentInfrontBall
+percentClosestToBall
+percentFarthestFromBall
+inflicted
+taken,

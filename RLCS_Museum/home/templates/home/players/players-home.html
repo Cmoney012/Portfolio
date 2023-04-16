@@ -1,0 +1,7 @@
+{% extends 'home\base.html' %}
+
+{% block content %}
+{% for player in players %}
+	<h1>{{ player.name }}</h1>
+{% endfor %}
+{% endblock %}

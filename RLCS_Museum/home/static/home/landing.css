@@ -1,0 +1,96 @@
+img,picture {
+	max-width: 100%;
+	display: block;
+}
+.header {
+	display: inline-block;
+	flex-wrap: wrap;
+	background-color: #077FC0;
+	height: auto;
+	width: 100%;
+	margin: 0px;
+	outline: 1px;
+	text-align: center;
+	border: 10px;
+}
+.background-gradient {
+	background: #FFFFFF;
+	background: -moz-radial-gradient(center, #FFFFFF 0%, #EDEDED 50%, #CFCFCF 100%);
+	background: -webkit-radial-gradient(center, #FFFFFF 0%, #EDEDED 50%, #CFCFCF 100%);
+	background: radial-gradient(ellipse at center, #FFFFFF 0%, #EDEDED 50%, #CFCFCF 100%);
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+}
+.navbar-game-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+.navbar-game-info ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.navbar-game-info li {
+	margin: 0 10px;
+}
+.navbar-game-info a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+.navbar-game-info a:hover {
+	text-decoration: underline;
+}
+.important-font {
+	container-type: inline;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 28px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: italic;
+	font-variant: normal;
+	text-transform: capitalize;
+}
+.scoreboard {
+	container-type: flex;
+	background: #5C8093;
+	border-width: 7px;
+	border-style: double;
+	border-color: #291AA4;
+	border-radius: 25px;
+	margin: 10px;
+	text-align: center;
+	width: auto;
+	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+}
+.team-logo {
+	display: block;
+	width: 25%;
+	margin: 10px;
+	padding: 10px;
+	height: auto;
+	align-content: auto;
+}
+.flex {
+	display: flex;
+	justify-content: space-around;
+}
+.image-border {
+	border: 2px solid #a775f1;
+}

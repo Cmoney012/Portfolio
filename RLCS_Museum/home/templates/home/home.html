@@ -1,0 +1,68 @@
+{% extends 'home/base.html' %}
+
+
+<title>{% block title %}Green's Chart Art{% endblock %}</title>
+
+{% block content %}
+<form method="POST" action="{% url 'stats-home' %}">
+    {% csrf_token %}
+    <h1>Core Stats Over Selected Time Period by Player</h1>
+    <label for="start-date"><h3>Select start date:</h3></label>
+    <input type="date" name="start-date" id="start-date">
+    <label for="end-date"><h3>Select end date:</h3></label>
+    <input type="date" name="end-date" id="end-date">
+
+    <label for="per_game_checkbox">Per Game:</label>
+    <input type="checkbox" id="per_game_checkbox" name="per_game_checkbox">
+
+    <label for="sort-by"><h3>Sort By:</h3></label>
+
+    <input type="radio" id="sort-games" name="sort-by" value="games" checked>
+    <label for="sort-games">Games</label>
+
+    <input type="radio" id="sort-shots" name="sort-by" value="shots">
+    <label for="sort-shots">Shots</label>
+
+    <input type="radio" id="sort-goals" name="sort-by" value="goals">
+    <label for="sort-goals">Goals</label>
+
+    <input type="radio" id="sort-saves" name="sort-by" value="saves">
+    <label for="sort-saves">Saves</label>
+
+    <input type="radio" id="sort-assists" name="sort-by" value="assists">
+    <label for="sort-assists">Assists</label>
+
+    <input type="radio" id="sort-score" name="sort-by" value="score">
+    <label for="sort-score">Score</label>
+
+    <input type="radio" id="sort-shooting-percentage" name="sort-by" value="shootingPercentage">
+    <label for="sort-shooting-percentage">Shooting Percentage</label>
+
+    <input type="radio" id="sort-amount-used-while-supersonic" name="sort-by" value="boostUsedWhileSupersonic">
+    <label for="sort-amount-used-while-supersonic">Boost Used While Supersonic</label>
+
+    <input type="radio" id="sort-rating" name="sort-by" value="rating">
+    <label for="sort-rating">Rating</label>
+
+    <label for="minimum-games"><h3>Minimum Games:</h3></label>
+
+    <input type="radio" id="minimum-games-0" name="minimum-games" value=0 checked>
+    <label for="minimum-games-0">0</label>
+
+    <input type="radio" id="minimum-games-25" name="minimum-games" value=25>
+    <label for="minimum-games-25">25</label>
+
+    <input type="radio" id="minimum-games-50" name="minimum-games" value=50>
+    <label for="minimum-games-50">50</label>
+
+    <input type="radio" id="minimum-games-100" name="minimum-games" value=100>
+    <label for="minimum-games-0">100</label>
+    
+    <button type="submit">Fetch data</button>
+
+</form>
+
+{% endblock %}
+{% block data %}
+{% endblock %}
+

@@ -1,0 +1,55 @@
+{% extends 'home\base.html' %}
+{% load static %}
+
+{% block content %}
+{% for series in series %}
+	<div class="scoreboard">
+		<div class="flex">
+  			<img class="team-logo image-border" src="{% static 'home/' %}{{ series.team_one_logo }}" alt="team-logo">
+     
+            <img class="team-logo image-border" src="{% static 'home/' %}{{ series.team_two_logo }}" alt="team-logo">
+  		</div>
+    	<h1 class="event-name">{{ series.event }}</h1> 
+    	<h1 class="series-title">{{ series.title }}</h1>	              
+    	<h2 class="team-name">{{ series.team_one }}  v  {{ 	series.team_two }}</h2>  
+    	<h2>{{ series.team_one_score }} - {{ 	series.team_two_score }}</h2>     
+    	<h3><small>{{ series.date_of_event }}</small></h3>
+  	<div class="content-game-info base-font">
+    	<section id="section-0" class="active">
+    		<h2>Pregame</h2>
+    		<p>{{ series.pregame }}</p>
+    	</section>
+    	<section id="section-1">
+    		<h2>Game 1</h2>
+    		<p>{{ series.game1 }}</p>
+    	</section>
+    	<section id="section-2">
+    		<h2>Game 2</h2>
+    		<p>{{ series.game2 }}</p>
+    	</section>
+    	<section id="section-3">
+    		<h2>Game 3</h2>
+    		<p>{{ series.game3 }}</p>
+    	</section>
+    	<section id="section-4">
+    		<h2>Game 4</h2>
+    		<p>{{ series.game4 }}</p>
+    	</section>
+    	<section id="section-5">
+    		<h2>Game 5</h2>
+    		<p>{{ series.game5 }}</p>
+    	</section>
+    	<section id="section-6">
+    		<h2>Game 6</h2>
+    		<p>{{ series.game6 }}</p>
+    	</section>
+    	<section id="section-7">
+    		<h2>Postgame</h2>
+    	  	<p>{{ series.postgame }}</p>
+    	</section>
+  	</div class="content-game-info base-font">
+  	</div class="scoreboard">
+{% endfor %}
+{% endblock content %}
+
+

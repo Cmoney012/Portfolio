@@ -1,0 +1,44 @@
+{% extends 'home/home.html' %}
+
+{% block title %}My Rocket League Stats{% endblock %}
+
+{% block data %}
+<h2>From: {{ context.start_date }}    To: {{ context.end_date }}</h2>
+<h3>Sorted by: {{ context.sort_by }}</h3>
+<h3>Minmum Games: {{ context.minimum_games }}</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Player</th>
+      <th>Games</th>
+      <th>Shots</th>
+      <th>Goals</th>
+      <th>Saves</th>
+      <th>Assists</th>
+      <th>Score</th>
+      <th>Shooting Percentage</th>
+      <th>Average Speed</th>
+      <th>Octanegg Rating</th>
+      <th>Boost Used While Supersonic</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for name, player in context.stats.items %}
+    <tr style="text-align: center";>
+      <td>{{ name }}</td>
+      <td>{{ player.stats.games }}</td>
+      <td>{{ player.stats.shots }}</td>
+      <td>{{ player.stats.goals }}</td>
+      <td>{{ player.stats.saves }}</td>
+      <td>{{ player.stats.assists }}</td>
+      <td>{{ player.stats.score }}</td>
+      <td>{{ player.stats.shootingPercentage }}</td>
+      <td>{{ player.stats.avgSpeed }}</td>
+      <td>{{ player.stats.octrating }}</td>
+      <td>{{ player.stats.amountUsedWhileSupersonic }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
